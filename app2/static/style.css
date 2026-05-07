@@ -1,0 +1,63 @@
+body {
+    font-family: system-ui, sans-serif;
+    max-width: 40rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+#ask-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+textarea {
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem;
+    resize: vertical;
+}
+
+button {
+    align-self: flex-start;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.results {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.results h2 {
+    margin: 0 0 0.5rem;
+    font-size: 1rem;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.results section {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+}
+
+.results div {
+    white-space: pre-wrap;
+    line-height: 1.5;
+}
+
+#result-with {
+    font-family: ui-monospace, monospace;
+    font-size: 0.85rem;
+    max-height: 30rem;
+    overflow: auto;
+}
